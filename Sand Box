@@ -1,0 +1,7 @@
+function outerFunction() {
+var innerVariable = "I'm sor of a secret.";
+  return function innerScope() {
+  car inaccessible = "Nothing can touch me.";
+  return innerVariable;
+  }
+  }
